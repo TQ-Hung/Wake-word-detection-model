@@ -38,7 +38,7 @@ For more infomation:
 
 ### Linear Classifier
 
-<img src="img/model.png" height="100">
+![model](https://github.com/TQ-Hung/Wake-word-detection-model/assets/133394852/86bee08d-6873-4da3-bf3c-bdc1193578d6)
 
 With the above configuration, the model contains 87249 parameters.
 
@@ -48,10 +48,10 @@ With the above configuration, the model contains 87249 parameters.
 
 For one labeled file, I recorded about 100 times of my own voice saying the wake word "Hey Eva" (2 seconds each), then replicated them by 70 times. For zero label, I recorded the surrounding sound, random speech from me and other people, split them in to files with 2 seconds lenght. Finally trained for 50 epochs with over 62.000 zero labeled and 7.000 one labeled audio files. I got these results:
 * Best test accuracy:
-<img src="img/final_result.png" height="50">
+![final_result](https://github.com/TQ-Hung/Wake-word-detection-model/assets/133394852/0906d4ca-e6a8-45b0-b2f0-5755b5ab8dd3)
 
 * Classification Report:
-<img src="img/csf_report.png" height="500">
+![csf_report](https://github.com/TQ-Hung/Wake-word-detection-model/assets/133394852/a3509b39-8728-4e0b-bc7b-d9623f6b9bfb)
 
 ### Demo Result
 After running engine.py with optimized model, I saw that the model worked well, it could easily recognize my voice saying the wake word and response back, but it not perfect, there are some pros and cons of the model:
