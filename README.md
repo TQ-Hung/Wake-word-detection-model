@@ -25,7 +25,7 @@ MFCCs are commonly derived as follows:
 * Take the discrete cosine transform of the list of mel log powers, as if it were a signal.
 * The MFCCs are the amplitudes of the resulting spectrum.
 
-<img src="img/mfcc.png" height="250">
+![mfcc](https://github.com/TQ-Hung/Wake-word-detection-model/assets/133394852/dc7fcc88-9241-4b7a-a3a7-24fdc07588e6)
 
 For more infomation:
 [https://en.wikipedia.org/wiki/Mel-frequency_cepstrum](https://en.wikipedia.org/wiki/Mel-frequency_cepstrum)
