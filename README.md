@@ -38,7 +38,7 @@ For more infomation:
 
 ### Linear Classifier
 
-<img src="img/model.png" width="1000" height="300" />
+<img src="img/model.png" width="600" height="100" />
 
 With the above configuration, the model contains 87249 parameters.
 
@@ -49,7 +49,7 @@ With the above configuration, the model contains 87249 parameters.
 For one labeled file, I recorded about 100 times of my own voice saying the wake word "Hey Eva" (2 seconds each), then replicated them by 70 times. For zero label, I recorded the surrounding sound, random speech from me and other people, split them in to files with 2 seconds lenght. Finally trained for 50 epochs with over 62.000 zero labeled and 7.000 one labeled audio files. I got these results:
 * Best test accuracy:
   
-<img src="img/final_result.png" width="300" height="100" />
+<img src="img/final_result.png" width="300" height="60" />
 
 * Classification Report:
   
