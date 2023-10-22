@@ -38,7 +38,7 @@ For more infomation:
 
 ### Linear Classifier
 
-![model](https://github.com/TQ-Hung/Wake-word-detection-model/assets/133394852/86bee08d-6873-4da3-bf3c-bdc1193578d6)
+<img src="img/mfcc.png" width="200" />
 
 With the above configuration, the model contains 87249 parameters.
 
